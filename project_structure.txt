@@ -1,7 +1,9 @@
-aquarium-3d-project/
+/aquarium_project_full_extended
   README.md
-  aquarium_scene.json
-  aquarium_layout.svg
-  aquarium_roots.svg
-  aquarium_blender.py
   project_structure.txt
+  aquarium_scene.json
+  aquarium_blender.py
+  aquarium_layout.svg          # front/top layout (2D)
+  aquarium_roots.svg           # korzenie, warstwy
+  feeding_schedule.txt
+  feeding_schedule_color_intensity.txt

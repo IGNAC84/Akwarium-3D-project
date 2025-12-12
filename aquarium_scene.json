@@ -1,4 +1,70 @@
 {
-  "scene": "aquarium",
-  "version": 1
+  "meta": {
+    "author": "IGNAC",
+    "date": "2025-12-09",
+    "units": "cm"
+  },
+  "aquarium": {
+    "width_cm": 120,
+    "depth_cm": 40,
+    "height_cm": 50,
+    "water_level_cm": 46
+  },
+  "elements": [
+    {
+      "id": "rock_cave",
+      "type": "rock",
+      "position": {"x": 20, "y": 0, "z": 10},
+      "size_cm": {"w": 40, "d": 22, "h": 20},
+      "notes": "grotka pod korzeniami, wejście front-centre-left"
+    },
+    {
+      "id": "root_left",
+      "type": "driftwood",
+      "position": {"x": 12, "y": 8, "z": 22},
+      "rotation_deg": {"x": 0, "y": 15, "z": -30},
+      "scale": 1.1,
+      "notes": "wysokie korzenie po lewej, częściowo przytwierdzone do skały"
+    },
+    {
+      "id": "root_center",
+      "type": "driftwood",
+      "position": {"x": 55, "y": 2, "z": 18},
+      "rotation_deg": {"x": 0, "y": -10, "z": 10},
+      "scale": 1.0,
+      "notes": "główna gałąź rozciągnięta centralnie"
+    },
+    {
+      "id": "root_right",
+      "type": "driftwood",
+      "position": {"x": 92, "y": 10, "z": 20},
+      "rotation_deg": {"x": 0, "y": 5, "z": 20},
+      "scale": 0.95,
+      "notes": "mniejszy korzeń po prawej"
+    },
+    {
+      "id": "filter_eheim",
+      "type": "filter_external",
+      "position": {"x": 6, "y": -18, "z": 28},
+      "notes": "wlot i wylot przy lewej tylnej szybie, wąż do deszczownicy u góry"
+    },
+    {
+      "id": "bioflow",
+      "type": "filter_internal_basket",
+      "position": {"x": 110, "y": -18, "z": 32},
+      "notes": "czarne pudełko bioflow za skanerem, wylot dolny po tylnej szybie"
+    },
+    {
+      "id": "airline",
+      "type": "air_pipe",
+      "position": {"x": 60, "y": 0, "z": 45},
+      "notes": "listwa bąbelków centralnie"
+    }
+  ],
+  "plants": [
+    {"species": "Microsorum", "position": {"x": 28, "y": 6}, "notes":"paprotnica, duże liście"},
+    {"species": "Vallisneria", "position": {"x": 100, "y": 4}, "notes":"długie liście przy prawej ściance"},
+    {"species": "Glossostigma", "position": {"x": 45, "y": 0}, "notes":"trawnik przy grocie"}
+  ],
+  "notes": "Model top-down: x = od lewej do prawej (cm), y = od frontu do tyłu (cm), z = wysokość (cm)."
 }
